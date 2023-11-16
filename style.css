@@ -8,6 +8,11 @@ header img {
     height: 100px;
     width: 100px;
 }
+.builder:hover {
+    position: absolute;
+    transform: translateY(100px) translateX(200px);
+    transition: 3s ease-in; 
+}
 h1 {
     font-size: 36px;
     color: rgb(247, 246, 246);
@@ -39,6 +44,16 @@ nav {
     font-weight: normal;
     padding-bottom: 5px;
     text-align: center;
+}
+a {
+    font-size: 20px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
 }
 img {
     height: 600px;
